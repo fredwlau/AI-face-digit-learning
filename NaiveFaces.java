@@ -31,7 +31,7 @@ public class NaiveFaces {
 	    //pass through functions
 	    public void smooth_likelihood() {
 	    	NaiveBayes nb = new NaiveBayes();
-	    	nb.smooth_likelihood(2, 70, 60, smooth, likelihoods);
+	    	nb.smooth_likelihood(x, y, z, smooth, likelihoods);
 	    }
 	    
 	    public void update_likelihood() {
